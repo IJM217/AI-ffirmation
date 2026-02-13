@@ -25,12 +25,13 @@ cd backend
 
 Create a virtual environment and activate it:
 
+Windows
 ```bash
-# Windows
 py -m venv venv
 .\venv\Scripts\activate
-
-# Mac/Linux
+```
+Mac/Linux
+```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
