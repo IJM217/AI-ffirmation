@@ -81,17 +81,3 @@ The app will be available at `http://localhost:5173`.
 
 ## Deployment
 
-### Backend (Railway)
-
-1.  Create a new project on [Railway](https://railway.app/).
-2.  Connect your GitHub repository.
-3.  Select the `backend` directory as the root directory (if monorepo) or ensure the build command points there.
-4.  Set the start command: `uvicorn main:app --host 0.0.0.0 --port $PORT`
-5.  **Important**: Add `GEMINI_API_KEY` in the Railway service variables.
-
-### Frontend (Vercel)
-
-1.  Import the repository into [Vercel](https://vercel.com).
-2.  Set the `Root Directory` to `frontend`.
-3.  Add the Environment Variable `VITE_API_URL` set to your deployed Backend URL (e.g., `https://web-production-xxxx.up.railway.app`).
-4.  Deploy.
