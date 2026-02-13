@@ -116,7 +116,7 @@ Build Settings:
 
 - Framework Preset: Select "Vite" (Vercel usually auto-detects this).
 
-Root Directory: Leave empty change if necessary
+- Root Directory: Leave empty change if necessary
 
 Environment Variables:
 
