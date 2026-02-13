@@ -84,3 +84,42 @@ The app will be available at `http://localhost:5173`.
 
 - live app --> https://aiffirmation.vercel.app/
 - backend docs --> https://ai-ffirmation-backend-production.up.railway.app/docs
+
+### Deployment Guide
+1. Backend Deployment (Railway)
+Create Project:
+
+- Log in to Railway and select "New Project" > "Deploy from GitHub repo".
+
+- Select your repository.
+
+Environment Variables:
+
+- Go to the Variables tab.
+
+- Add GEMINI_API_KEY with your Google API key value.
+
+Public URL:
+
+- Go to Settings > Networking > Public Networking.
+
+- Click "Generate Domain" to get your backend URL (e.g., https://your-app.up.railway.app).
+
+2. Frontend Deployment (Vercel)
+Create Project:
+
+- Log in to Vercel and click "Add New..." > "Project".
+
+- Import your repository.
+
+Build Settings:
+
+- Framework Preset: Select "Vite" (Vercel usually auto-detects this).
+
+Root Directory: Leave empty change if necessary
+
+Environment Variables:
+
+- Go to Settings > Environment Variables.
+
+- Add VITE_API_URL with your Railway backend URL (ensure it starts with https:// and has no trailing slash).
