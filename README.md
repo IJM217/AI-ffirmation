@@ -82,5 +82,5 @@ The app will be available at `http://localhost:5173`.
 
 ## Deployment
 
-live app -> https://aiffirmation.vercel.app/
-backend docs -> https://ai-ffirmation-backend-production.up.railway.app/docs
+- live app --> https://aiffirmation.vercel.app/
+- backend docs --> https://ai-ffirmation-backend-production.up.railway.app/docs
